@@ -58,6 +58,7 @@ nav {
     margin-top: 24px;
     margin-bottom: 24px;
     border: none;
+    cursor: pointer;
 }
 
 
@@ -74,22 +75,56 @@ nav {
     background-position: center;
     color: white;
 }
+.hero-section
+{
+   
+    position: relative;
+}
 
-.hero-mic {
-    background-image: url('../assets/hero-circle.png');
-    background-repeat: no-repeat;
-    background-position: center;
+.rounded-mic .round-shap{
+    width: 300px;
+    height: auto;
+   
+
+}
+.rounded-mic .mic
+{ 
+    width: 100px;
+    height: auto;
+    position: absolute;
+    left: 40%;
+    top: 13%;
+    /* right: 50%; */
+    transform: translate(-50% -50%) ;
+    
+}
+.rounded-mic span
+{
+    background-color: #00FF88;
+    color: black;
+    font-weight: 700;
+    padding: 6px 15px ;
+    border-radius: 20px;
+    display: inline-block;
+    position: absolute;
+    left: 285px;
+    top: 60;
+
 }
 
 .hero-title {
     margin-top: 20px;
 }
-
+.hero-title h3
+{
+    font-size: 48px;
+}
 .btn-grp {
     display: flex;
 
     justify-content: center;
     gap: 20px;
+    
 
 }
 
@@ -101,6 +136,7 @@ nav {
     margin-top: 24px;
     margin-bottom: 24px;
     border: none;
+    cursor: pointer;
 }
 
 .btn3 {
@@ -111,6 +147,7 @@ nav {
     margin-bottom: 24px;
     border: 1px solid #00FF88;
     background-color: #1A0B2E;
+    cursor: pointer;
 }
 
 /* about section */
@@ -309,6 +346,9 @@ iframe {
     max-width: 100%;
     border-radius: 20px;
 }
+.time{
+    color: #00FF88;
+}
 
 /* Host */
 .host {
@@ -415,9 +455,9 @@ footer p {
 @media screen and (max-width: 576px) {
 
    /* header section */
-    body {
+    /* body {
         overflow-x: hidden;
-    }
+    } */
 
     section {
         margin-bottom: 64px;
