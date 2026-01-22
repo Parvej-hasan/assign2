@@ -74,36 +74,37 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
     color: white;
+
 }
-.hero-section
-{
-   
+
+.hero-section {
+
     position: relative;
 }
 
-.rounded-mic .round-shap{
+.rounded-mic .round-shap {
     width: 300px;
     height: auto;
-   
+
 
 }
-.rounded-mic .mic
-{ 
+
+.rounded-mic .mic {
     width: 100px;
     height: auto;
     position: absolute;
-    left: 40%;
-    top: 13%;
+    left: 50%;
+    top: 25%;
     /* right: 50%; */
-    transform: translate(-50% -50%) ;
-    
+    transform: translate(-50%, -50%);
+
 }
-.rounded-mic span
-{
+
+.rounded-mic span {
     background-color: #00FF88;
     color: black;
     font-weight: 700;
-    padding: 6px 15px ;
+    padding: 6px 15px;
     border-radius: 20px;
     display: inline-block;
     position: absolute;
@@ -115,16 +116,17 @@ nav {
 .hero-title {
     margin-top: 20px;
 }
-.hero-title h3
-{
+
+.hero-title h3 {
     font-size: 48px;
 }
+
 .btn-grp {
     display: flex;
 
     justify-content: center;
     gap: 20px;
-    
+
 
 }
 
@@ -247,14 +249,6 @@ nav {
     grid-template-areas: "audio mobile"
         "audio Global"
         "Interviews Resources";
-
-
-
-
-
-
-
-
 }
 
 .card {
@@ -346,7 +340,8 @@ iframe {
     max-width: 100%;
     border-radius: 20px;
 }
-.time{
+
+.time {
     color: #00FF88;
 }
 
@@ -454,10 +449,7 @@ footer p {
 /* responsive */
 @media screen and (max-width: 576px) {
 
-   /* header section */
-    /* body {
-        overflow-x: hidden;
-    } */
+
 
     section {
         margin-bottom: 64px;
@@ -476,7 +468,7 @@ footer p {
         line-height: 1.6;
     }
 
-   
+
     nav {
         padding: 16px;
     }
@@ -494,14 +486,41 @@ footer p {
         display: none;
     }
 
-   /* HERO SECTION */
+    /* HERO SECTION */
     .hero {
         padding: 60px 16px;
         text-align: center;
+
+        background-size: cover;
+        background-position: top;
+
+
+    }
+
+    .rounded-mic .round-shap {
+        width: 180px;
+    }
+
+    .rounded-mic .mic {
+        width: 60px;
+    }
+
+    .rounded-mic span {
+        top: 3%;
+        right: 22%;
+        left: 65%;
+        font-size: 11px;
+        padding: 6px 12px;
+    }
+
+    .hero-title h3 {
+        font-size: 32px;
     }
 
     .hero-mic img {
         width: 110px;
+        max-width: 100%;
+        height: auto;
     }
 
     .btn-grp {
@@ -522,7 +541,7 @@ footer p {
         height: auto;
     }
 
-  /*  details section  */
+    /*  details section  */
     .count {
         padding: 0 16px;
     }
@@ -538,7 +557,7 @@ footer p {
         font-size: 36px;
     }
 
-  /* Why Choose TechWave */
+    /* Why Choose TechWave */
     .why-techwave {
         padding: 60px 16px;
     }
@@ -565,8 +584,8 @@ footer p {
         padding: 24px;
     }
 
- 
-/* <!-- Featured Episodes --> */
+
+    /* <!-- Featured Episodes --> */
     .card-section {
         padding: 60px 16px;
     }
@@ -589,7 +608,7 @@ footer p {
         height: 200px;
     }
 
- /* Host */
+    /* Host */
     .host {
         padding: 40px 16px;
         margin-top: 100px;
@@ -615,7 +634,7 @@ footer p {
         margin: 0 6px;
     }
 
-  /* footer section */
+    /* footer section */
     .tech {
         font-size: 28px;
         padding: 40px 16px;
