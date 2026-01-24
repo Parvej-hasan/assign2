@@ -113,7 +113,7 @@ nav {
     border-radius: 20px;
     display: inline-block;
     position: absolute;
-    left: 285px;
+    left: 339px;
     top: 60;
 
 }
@@ -512,9 +512,9 @@ footer p {
     }
 
     .rounded-mic span {
-        top: 3%;
-        right: 22%;
-        left: 65%;
+        top: -1%;
+        right: 25%;
+        left: 61%;
         font-size: 11px;
         padding: 6px 12px;
     }
