@@ -5,9 +5,10 @@ body {
 
 
 }
+
 /* font section */
-.font-inter{
-  font-family: "Inter", sans-serif;
+.font-inter {
+    font-family: "Inter", sans-serif;
     font-style: normal;
 }
 
@@ -171,7 +172,8 @@ nav {
 }
 
 .about h3 {
-    font-size: 48px;
+    font-size: 44px;
+    ;
 }
 
 .about p {
@@ -351,12 +353,7 @@ iframe {
 }
 
 /* Host */
-.host {
-
-    
-
-
-}
+.host {}
 
 .host h2 {
     font-size: 48px;
@@ -367,16 +364,16 @@ iframe {
 .host-container {
     color: white;
     background-color: #351165;
-    
+
     margin: 0 auto;
-   
+
     border-radius: 20px;
     margin-bottom: 120px;
     margin-top: 218px;
     display: flex;
     gap: 24px;
     margin: 0 auto;
-   
+
 
 }
 
@@ -599,6 +596,10 @@ footer p {
     .card-container {
         flex-direction: column;
         gap: 24px;
+    }
+
+    .card-section h2 {
+        font-size: 41px;
     }
 
     .card1,
