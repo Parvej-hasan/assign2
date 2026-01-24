@@ -348,14 +348,7 @@ iframe {
 /* Host */
 .host {
 
-    color: white;
-    background-color: #351165;
-    /* max-width: 1200px; */
-    margin: 0 auto;
-    /* height: 280px; */
-    border-radius: 20px;
-    margin-bottom: 120px;
-    margin-top: 218px;
+    
 
 
 }
@@ -367,6 +360,14 @@ iframe {
 }
 
 .host-container {
+    color: white;
+    background-color: #351165;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    /* height: 280px; */
+    border-radius: 20px;
+    margin-bottom: 120px;
+    margin-top: 218px;
     display: flex;
     gap: 24px;
     margin: 0 auto;
